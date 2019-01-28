@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/purple-green.css';
 
 html, body {
     height: 100%;
@@ -7,13 +7,10 @@ html, body {
 body {
     margin: 0; 
     font-family: 'Wire One', sans-serif; 
+    background-color: #303030;
+    color: white;
 }
 
-ul {
-    list-style: none;
-    margin: auto;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
-    padding-top: 1em;
+h1, h2 {
+    font-family: 'Major Mono Display', serif;
 }
