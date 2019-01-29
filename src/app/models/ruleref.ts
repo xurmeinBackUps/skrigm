@@ -1,5 +1,5 @@
 export class Ruleref {
     id : number;
-    name : string
+    title : string
     _panel? : number;
 }

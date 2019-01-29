@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  title = 'skrigm';
-  subtitle = 'GM screen App'
+  title = 'SKRIGM Web-App';
+  subtitle = 'customizable gm screen'
 
   constructor() { }
 

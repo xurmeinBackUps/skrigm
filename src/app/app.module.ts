@@ -8,14 +8,18 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './db/in-memory-data.service';
 
 import { AppComponent } from './app.component';
-import { ScreenComponent } from './components/screen/screen.component';
-import { PanelComponent } from './components/panel/panel.component';
-import { RulerefComponent } from './components/ruleref/ruleref.component';
-import { RulerefFormComponent } from './components/ruleref-form/ruleref-form.component';
-import { PanelFormComponent } from './components/panel-form/panel-form.component';
-import { ArchiveComponent } from './components/archive/archive.component';
-import { Oops404Component } from './oops404/oops404.component';
-import { HomeComponent } from './home/home.component';
+import { Oops404Component } from './site/oops404/oops404.component';
+import { HomeComponent } from './site/home/home.component';
+import { ScreenComponent } from './site/components/screen/screen.component';
+import { PanelComponent } from './site/components/panel/panel.component';
+import { RulerefComponent } from './site/components/ruleref/ruleref.component';
+import { RulerefFormComponent } from './site/components/ruleref-form/ruleref-form.component';
+import { PanelFormComponent } from './site/components/panel-form/panel-form.component';
+import { ArchiveComponent } from './site/components/archive/archive.component';
+import { RuleComponent } from './site/components/rule/rule.component';
+import { RuleFormComponent } from './site/components/rule-form/rule-form.component';
+import { DefinitionComponent } from './site/components/definition/definition.component';
+import { DefinitionFormComponent } from './site/components/definition-form/definition-form.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
@@ -32,8 +36,6 @@ import {
   MatProgressSpinnerModule,
   MatDialogModule
 } from '@angular/material';
-import { RuleComponent } from './components/rule/rule.component';
-import { RuleFormComponent } from './components/rule-form/rule-form.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { RuleFormComponent } from './components/rule-form/rule-form.component';
     Oops404Component,
     HomeComponent,
     RuleComponent,
-    RuleFormComponent
+    RuleFormComponent,
+    DefinitionComponent,
+    DefinitionFormComponent
   ],
   imports: [
     BrowserModule,

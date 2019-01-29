@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ScreenComponent } from './components/screen/screen.component';
-import { ArchiveComponent } from './components/archive/archive.component';
-import { Oops404Component } from './oops404/oops404.component';
+import { ScreenComponent } from './site/components/screen/screen.component';
+import { ArchiveComponent } from './site/components/archive/archive.component';
+import { HomeComponent } from './site/home/home.component';
+import { Oops404Component } from './site/oops404/oops404.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
